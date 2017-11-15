@@ -5,7 +5,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class PiAloud {
+public class PiAloudworkoOnME {
 
 	// 1. Make a main method and make sure your program can run
 
