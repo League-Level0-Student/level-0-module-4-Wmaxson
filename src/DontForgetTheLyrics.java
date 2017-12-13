@@ -22,11 +22,14 @@ public class DontForgetTheLyrics {
 		// 4. Make a pop-up to explain the game.
 JOptionPane.showMessageDialog(null, "Hello and welcome to Dont, Forget the lyrics");
 		// 5. Use the playSound method to play your song.
-
+playSound("no.wav");
 		// 6. Make a pop-up for the player to type their answer.
-
+String nextlyric = JOptionPane.showInputDialog("Whacha next lyric");
 		// 7. If they answered correctly, tell them that they were right.
-
+if (nextlyric.equals("Rock")) {
+	System.out.println("U id it.");
+	
+}
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
 
 		// 9. Record another sound and repeat steps 5-8.
